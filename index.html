@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body style="background-color: lightgray;">
+    <!-- <div class="complete"> -->
+        <h1 class="complete">CALCULATOR</h1>
+    <!-- </div> -->
+        <div class="container">
+            <div class="input">
+                <input type="text" id="input" class="input1">
+            </div>
+            <div class="number">
+                <table>
+                    <tr>
+                        <td class="num" onclick="getval(9)">9</td>
+                        <td class="num" onclick="getval(8)">8</td>
+                        <td class="num" onclick="getval(7)">7</td>
+                        <td class="num" onclick="getval('*')">*</td>
+                    </tr>
+                    <tr>
+                        <td class="num" onclick="getval(6)">6</td>
+                        <td class="num" onclick="getval(5)">5</td>
+                        <td class="num" onclick="getval(4)">4</td>
+                        <td class="num" onclick="getval('-')">-</td>
+                    </tr>
+                    <tr>
+                        <td class="num" onclick="getval(3)">3</td>
+                        <td class="num" onclick="getval(2)">2</td>
+                        <td class="num" onclick="getval(1)">1</td>
+                        <td class="num" onclick="getval('+')">+</td>
+                    </tr>
+                    <tr>
+                        <td class="num" onclick="getval(0)">0</td>
+                        <td class="num" onclick="getval('.')">.</td>
+                        <td class="num" onclick="geteqval('=')">=</td>
+                        <td class="num" onclick="getClear()">c</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</body>
+<script src="app.js"></script>
+</html>
